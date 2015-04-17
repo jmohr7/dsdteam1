@@ -61,7 +61,7 @@
       <div class="rn-container">
         <div class="row">
           <div id="translatedText" class="well col-md-10"><?php echo $_POST["textToTranslate"] ?></div>
-          <div id="translationConfidence" class="col-md-2"><span class="label label-primary percentage">70%</span></div>
+          <div id="translationConfidence" class="col-md-2"><span class="label label-primary percentage"><?php echo shell_exec("java -jar ../../rn.jar") ?></span></div>
         </div
       </div>
     </div><!-- /.container -->
