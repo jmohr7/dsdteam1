@@ -42,10 +42,19 @@
 
     <div class="container">
 
-      <form class="rn-container" action="translation.html" method="POST">
+      <form class="rn-container" action="translation.php" method="POST">
+        <label class="radio-inline">
+          <input type="radio" name="targetLanguage" id="languageRadio1" value="Russian"> Russian
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="targetLanguage" id="languageRadio2" value="Yoruba"> Yoruba
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="targetLanguage" id="languageRadio3" value="Telugu"> Telugu
+        </label>
   		<div class="form-group">
-    	  <label for="exampleInputEmail1">Text For Translation</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter text to translate">
+    	  <label for="testToTranslate">Text For Translation</label>
+          <input type="text" class="form-control" name="textToTranslate" placeholder="Enter text to translate">
   		</div>
   		<button type="submit" class="btn btn-success">Translate</button>
       </form

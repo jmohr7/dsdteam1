@@ -43,15 +43,24 @@
     <div class="container">
 
       <form class="rn-container" method="POST">
+        <label class="radio-inline">
+          <input type="radio" name="targetLanguage" id="languageRadio1" value="Russian"> Russian
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="targetLanguage" id="languageRadio2" value="Yoruba"> Yoruba
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="targetLanguage" id="languageRadio3" value="Telugu"> Telugu
+        </label>
   		<div class="form-group">
     	  <label for="textToTranslate">Text For Translation</label>
-          <input type="text" class="form-control" id="textToTranslate" placeholder="Enter text to translate">
+          <input type="text" class="form-control" name="textToTranslate" placeholder="Enter text to translate">
   		</div>
   		<button type="submit" class="btn btn-success">Translate</button>
       </form>
       <div class="rn-container">
         <div class="row">
-          <div id="translatedText" class="well col-md-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
+          <div id="translatedText" class="well col-md-10"><?php echo $_POST["textToTranslate"] ?></div>
           <div id="translationConfidence" class="col-md-2"><span class="label label-primary percentage">70%</span></div>
         </div
       </div>
