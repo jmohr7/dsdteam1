@@ -1,3 +1,8 @@
+<?php if(empty($_POST)) header( 'Location: index.php' ); ?>
+<?php
+  $numSearchResults = 10;
+  $translationLength = strlen($_POST['textToTranslate']);
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Random Neighbor</title>
+    <title>Radius of Neighbors</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Random Neighbor</a>
+          <a class="navbar-brand" href="#">Radius of Neighbors</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -43,17 +48,20 @@
     <div class="container">
 
       <form class="rn-container" method="POST">
+        <div class="form-group">
+          <label for="targetLanguage">Target Language:</label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio1" value="Russian" <?php if($_POST["targetLanguage"]=="Russian") echo "checked" ?>> Russian
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio2" value="Yoruba" <?php if($_POST["targetLanguage"]=="Yoruba") echo "checked" ?>> Yoruba
+          </label>
         <label class="radio-inline">
-          <input type="radio" name="targetLanguage" id="languageRadio1" value="Russian"> Russian
+          <input type="radio" name="targetLanguage" id="languageRadio3" value="Telugu" <?php if($_POST["targetLanguage"]=="Telugu") echo "checked" ?>> Telugu
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="targetLanguage" id="languageRadio2" value="Yoruba"> Yoruba
-        </label>
-        <label class="radio-inline">
-          <input type="radio" name="targetLanguage" id="languageRadio3" value="Telugu"> Telugu
-        </label>
+        </div>
   		<div class="form-group">
-    	  <label for="textToTranslate">Text For Translation</label>
+    	  <label for="textToTranslate">Text For Translation:</label>
           <input type="text" class="form-control" name="textToTranslate" placeholder="Enter text to translate">
   		</div>
   		<button type="submit" class="btn btn-success">Translate</button>
@@ -61,7 +69,11 @@
       <div class="rn-container">
         <div class="row">
           <div id="translatedText" class="well col-md-10"><?php echo $_POST["textToTranslate"] ?></div>
-          <div id="translationConfidence" class="col-md-2"><span class="label label-primary percentage"><?php echo shell_exec("java -jar ../../rn.jar") ?></span></div>
+          <div id="translationConfidence" class="col-md-2">
+            <span class="label label-primary percentage">
+              <?php echo shell_exec("java -jar ../../rn.jar ".$_POST['targetLanguage']." ".$translationLength." ".$numSearchResults) ?>
+            </span>
+          </div>
         </div
       </div>
     </div><!-- /.container -->

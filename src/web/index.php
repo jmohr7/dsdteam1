@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Random Neighbor</title>
+    <title>Radius of Neighbors</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Random Neighbor</a>
+          <a class="navbar-brand" href="#">Radius of Neighbors</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -43,17 +43,20 @@
     <div class="container">
 
       <form class="rn-container" action="translation.php" method="POST">
-        <label class="radio-inline">
-          <input type="radio" name="targetLanguage" id="languageRadio1" value="Russian"> Russian
-        </label>
-        <label class="radio-inline">
-          <input type="radio" name="targetLanguage" id="languageRadio2" value="Yoruba"> Yoruba
-        </label>
-        <label class="radio-inline">
-          <input type="radio" name="targetLanguage" id="languageRadio3" value="Telugu"> Telugu
-        </label>
+        <div class="form-group">
+          <label for="targetLanguage">Target Language:</label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio1" value="Russian" checked> Russian
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio2" value="Yoruba"> Yoruba
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio3" value="Telugu"> Telugu
+          </label>
+        </div>
   		<div class="form-group">
-    	  <label for="testToTranslate">Text For Translation</label>
+    	  <label for="testToTranslate">Text For Translation:</label>
           <input type="text" class="form-control" name="textToTranslate" placeholder="Enter text to translate">
   		</div>
   		<button type="submit" class="btn btn-success">Translate</button>
