@@ -1,13 +1,15 @@
 <?php if(empty($_POST)) header( 'Location: index.php' ); ?>
 <?php
   $langs = "";
-  if($_POST["targetLanguage"] == "Russian"):
+  if($_POST["targetLanguage"] == "Russian"){
     $langs = "en-ru";
-  elseif($_POST["targetLanguage"] == "Telugu"):
+  }
+  elseif($_POST["targetLanguage"] == "Telugu"){
     $langs = "en-ru";
-  else:
+  }
+  else{
     $langs ="en-ru";
-  endif;
+  }
   // Consume calendar REST service with curl
   $curl = curl_init();
   $url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20150425T171008Z.77263fc46bfe0afc.6a32b1315ffb543be3e97ea94e3c6691ade23f35&lang=" . $langs . "&text=" . $_POST["textToTranslate"];
@@ -19,7 +21,7 @@
   $translation = $decodedResult["text"][0];
   $translationLength = strlen($translation);
   $curl2 = curl_init();
-  $searchURL = "https://xmlsearch.yandex.com/xmlsearch?user=moore-joe2015&key=03.315238186:752707d9797897ec371eb6d93fe3e941&query=". $translation . "l10n=ru&sortby=tm.order%3Dascending&filter=strict&groupby=attr%3D%22%22.mode%3Dflat.groups-on-page%3D10.docs-in-group%3D1";
+  $searchURL = "https://xmlsearch.yandex.com/xmlsearch?user=moore-joe2015&key=03.315238186:752707d9797897ec371eb6d93fe3e941&query=". $translation . "&l10n=en&sortby=tm.order%3Dascending&filter=strict&groupby=attr%3D%22%22.mode%3Dflat.groups-on-page%3D10.docs-in-group%3D1";
   curl_setopt($curl2, CURLOPT_URL, $searchURL);
   curl_setopt($curl2, CURLOPT_RETURNTRANSFER, 1);
   $searchResult = curl_exec($curl2);
@@ -92,7 +94,7 @@
       </form>
       <div class="rn-container">
         <div class="row">
-          <div id="translatedText" class="well col-md-10"><?php echo $translation . $searchResult ?></div>
+          <div id="translatedText" class="well col-md-10"><?php echo $translation ?></div>
           <div id="translationConfidence" class="col-md-2">
             <span class="label label-primary percentage">
               <?php echo shell_exec("java -jar ../../rn.jar ".$_POST['targetLanguage']." ".$translationLength." ".$numSearchResults) ?>
