@@ -59,13 +59,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Radius of Neighbors</a>
+          <a class="navbar-brand" href="index.php">Radius of Neighbors</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Translate</a></li>
-            <li><a href="#about">Help</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><a href="index.php">Sentence</a></li>
+            <li><a href="doc.php">Document</a></li>
+            <li><a href="help.php">Help</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

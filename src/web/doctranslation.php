@@ -32,8 +32,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.php">Sentence</a></li>
-            <li><a href="doc.php">Document</a></li>
+            <li><a href="index.php">Sentence</a></li>
+            <li class="active"><a href="doc.php">Document</a></li>
             <li><a href="help.php">Help</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
@@ -43,24 +43,8 @@
 
     <div class="container">
 
-      <form class="rn-container" action="translation.php" method="POST">
-        <div class="form-group">
-          <label for="targetLanguage">Target Language:</label>
-          <label class="radio-inline">
-            <input type="radio" name="targetLanguage" id="languageRadio1" value="Russian" checked> Russian
-          </label>
-          <label class="radio-inline">
-            <input type="radio" name="targetLanguage" id="languageRadio2" value="Yoruba"> Yoruba
-          </label>
-          <label class="radio-inline">
-            <input type="radio" name="targetLanguage" id="languageRadio3" value="Telugu"> Telugu
-          </label>
-        </div>
-  		<div class="form-group">
-    	  <label for="testToTranslate">Text For Translation:</label>
-          <input type="text" class="form-control" name="textToTranslate" placeholder="Enter text to translate">
-  		</div>
-  		<button type="submit" class="btn btn-success">Translate</button>
+      <form class="rn-container" action="doctranslation.php" method="POST">
+        
       </form
 
     </div><!-- /.container -->
