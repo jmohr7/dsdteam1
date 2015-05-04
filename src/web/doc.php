@@ -42,8 +42,8 @@
     </nav>
 
     <div class="container">
-
-      <form class="rn-container" action="doctranslation.php" method="POST">
+      <h2>Multiple Sentence/Document Translation</h2>
+      <form action="doctranslation.php" method="POST">
         
       </form
 

@@ -41,10 +41,9 @@
       </div>
     </nav>
 
-    <div class="container rn-container">
-
-    Lorem Ipsum dolor sit imit
-
+    <div class="container">
+      <h2>Contact Us</h2>
+      Lorem Ipsum dolor sit imit
     </div><!-- /.container -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

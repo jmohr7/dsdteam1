@@ -73,8 +73,8 @@
     </nav>
 
     <div class="container">
-
-      <form class="rn-container" method="POST">
+      <h2>Single Sentence Translation</h2>
+      <form method="POST">
         <div class="form-group">
           <label for="targetLanguage">Target Language:</label>
           <label class="radio-inline">

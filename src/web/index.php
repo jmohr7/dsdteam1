@@ -42,8 +42,8 @@
     </nav>
 
     <div class="container">
-
-      <form class="rn-container" action="translation.php" method="POST">
+      <h2>Single Sentence Translation</h2>
+      <form action="translation.php" method="POST">
         <div class="form-group">
           <label for="targetLanguage">Target Language:</label>
           <label class="radio-inline">
