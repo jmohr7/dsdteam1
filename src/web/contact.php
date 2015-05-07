@@ -43,7 +43,32 @@
 
     <div class="container">
       <h2>Contact Us</h2>
-      Lorem Ipsum dolor sit imit
+      <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Project Role</th>
+          <th>Name</th>
+          <th>Email</th>
+         </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Project Manager</td>
+            <td>Adam Green</td>
+            <td><a href="mailto:test1242141@uoregon.edu"><span class="glyphicon glyphicon-envelope"></a></span></td>
+          </tr>
+          <tr>
+            <td>Lead Developer</td>
+            <td>Joe Mohr</td>
+            <td><a href="mailto:jmohr7@uoregon.edu"><span class="glyphicon glyphicon-envelope"></a></span></td>
+          </tr>
+          <tr>
+            <td>Lead Architect</td>
+            <td>John Doe</td>
+            <td><a href="mailto:test123412@uoregon.edu"><span class="glyphicon glyphicon-envelope"></a></span></td>
+          </tr>
+        </tbody>
+      </table>
     </div><!-- /.container -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

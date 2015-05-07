@@ -44,8 +44,24 @@
     <div class="container">
       <h2>Multiple Sentence/Document Translation</h2>
       <form action="doctranslation.php" method="POST">
-        
-      </form
+        <div class="form-group">
+          <label for="targetLanguage">Target Language:</label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio1" value="Russian" checked> Russian
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio2" value="Yoruba"> Yoruba
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio3" value="Telugu"> Telugu
+          </label>
+        </div>
+  		<div class="form-group">
+    	  <label for="testToTranslate">Text For Translation:</label>
+    	  <textarea class="form-control" rows="5" name="textToTranslate" placeholder="Enter text to translate"></textarea>
+  		</div>
+  		<button type="submit" class="btn btn-success">Translate</button>
+      </form>
 
     </div><!-- /.container -->
 

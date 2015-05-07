@@ -1,3 +1,17 @@
+<?php if(empty($_POST)) header( 'Location: doc.php' ); ?>
+<?php
+  $langs = "";
+  if($_POST["targetLanguage"] == "Russian"){
+    $langs = "en-ru";
+  }
+  elseif($_POST["targetLanguage"] == "Telugu"){
+    $langs = "en-ru";
+  }
+  else{
+    $langs ="en-ru";
+  }
+  $sentences = explode(".", $_POST["textToTranslate"]);
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,9 +22,6 @@
     <title>Radius of Neighbors</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-     <link href="css/rn.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -43,9 +54,57 @@
 
     <div class="container">
       <h2>Multiple Sentence/Document Translation</h2>
-      <form class="rn-container" action="doctranslation.php" method="POST">
-        
-      </form
+      <form action="doctranslation.php" method="POST">
+        <div class="form-group">
+          <label for="targetLanguage">Target Language:</label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio1" value="Russian" checked> Russian
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio2" value="Yoruba"> Yoruba
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="targetLanguage" id="languageRadio3" value="Telugu"> Telugu
+          </label>
+        </div>
+  		<div class="form-group">
+    	  <label for="testToTranslate">Text For Translation:</label>
+    	  <textarea class="form-control" rows="5" name="textToTranslate" placeholder="Enter text to translate"></textarea>
+  		</div>
+  		<button type="submit" class="btn btn-success">Translate</button>
+      </form>
+      <div class="panel panel-default" style="margin-top:20px;">
+        <div class="panel-body">
+        <?php
+          //Perform RN for each sentence in sentences and output result
+          $count = count($sentences);
+            for ($i = 0; $i < $count; $i++) {
+              if ($sentences[$i]){
+				  // Consume calendar REST service with curl
+				  $curl = curl_init();
+				  $url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20150425T171008Z.77263fc46bfe0afc.6a32b1315ffb543be3e97ea94e3c6691ade23f35&lang=" . $langs . "&text=" . $sentences[$i];
+				  curl_setopt($curl, CURLOPT_URL, $url);
+				  curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+				  $result = curl_exec($curl);
+				  curl_close($curl);
+				  $decodedResult = json_decode($result, true);
+				  $translation = $decodedResult["text"][0];
+				  $translationLength = strlen($translation);
+				  $curl2 = curl_init();
+				  $searchURL = "https://xmlsearch.yandex.com/xmlsearch?user=moore-joe2015&key=03.315238186:752707d9797897ec371eb6d93fe3e941&query=". $translation . "&l10n=en&sortby=tm.order%3Dascending&filter=strict&groupby=attr%3D%22%22.mode%3Dflat.groups-on-page%3D10.docs-in-group%3D1";
+				  curl_setopt($curl2, CURLOPT_URL, $searchURL);
+				  curl_setopt($curl2, CURLOPT_RETURNTRANSFER, 1);
+				  $searchResult = curl_exec($curl2);
+				  curl_close($curl2);
+				  $searchXML = simplexml_load_string($searchResult);
+				  $numSearchResults = $searchXML->response->found[2];
+				  $percent = shell_exec("java -jar ../../rn.jar ".$_POST['targetLanguage']." ".$translationLength." ".$numSearchResults);
+				  echo "<span data-toggle=\"tooltip\" data-placement=\"top\" title=\"". $percent ."\">" . $translation . ".  </span>";
+				} 
+            }
+        ?>
+        </div>
+      </div>
 
     </div><!-- /.container -->
 
@@ -53,5 +112,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/rn.css" rel="stylesheet">
+    <script> 
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
   </body>
 </html>

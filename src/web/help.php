@@ -44,7 +44,7 @@
     <div class="container">
 	  <h2>User Guide</h2>
       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-		  <div class="panel panel-default">
+		  <div class="panel panel-success">
 			<div class="panel-heading" role="tab" id="headingOne">
 			  <h4 class="panel-title">
 				<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -58,7 +58,7 @@
 			  </div>
 			</div>
 		  </div>
-		  <div class="panel panel-default">
+		  <div class="panel panel-success">
 			<div class="panel-heading" role="tab" id="headingTwo">
 			  <h4 class="panel-title">
 				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -72,7 +72,7 @@
 			  </div>
 			</div>
 		  </div>
-		  <div class="panel panel-default">
+		  <div class="panel panel-success">
 			<div class="panel-heading" role="tab" id="headingThree">
 			  <h4 class="panel-title">
 				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
