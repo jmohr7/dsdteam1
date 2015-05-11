@@ -1,15 +1,7 @@
 <?php if(empty($_POST)) header( 'Location: doc.php' ); ?>
 <?php
-  $langs = "";
-  if($_POST["targetLanguage"] == "Russian"){
-    $langs = "en-ru";
-  }
-  elseif($_POST["targetLanguage"] == "Telugu"){
-    $langs = "en-ru";
-  }
-  else{
-    $langs ="en-ru";
-  }
+  require_once("translate.php");
+  require_once("search.php");
   $sentences = explode(".", $_POST["textToTranslate"]);
 ?>
 <!DOCTYPE html>
@@ -78,28 +70,22 @@
         <?php
           //Perform RN for each sentence in sentences and output result
           $count = count($sentences);
-            for ($i = 0; $i < $count; $i++) {
-              if ($sentences[$i]){
-				  // Consume calendar REST service with curl
-				  $curl = curl_init();
-				  $url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20150425T171008Z.77263fc46bfe0afc.6a32b1315ffb543be3e97ea94e3c6691ade23f35&lang=" . $langs . "&text=" . $sentences[$i];
-				  curl_setopt($curl, CURLOPT_URL, $url);
-				  curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-				  $result = curl_exec($curl);
-				  curl_close($curl);
-				  $decodedResult = json_decode($result, true);
-				  $translation = $decodedResult["text"][0];
-				  $translationLength = strlen($translation);
-				  $curl2 = curl_init();
-				  $searchURL = "https://xmlsearch.yandex.com/xmlsearch?user=moore-joe2015&key=03.315238186:752707d9797897ec371eb6d93fe3e941&query=". $translation . "&l10n=en&sortby=tm.order%3Dascending&filter=strict&groupby=attr%3D%22%22.mode%3Dflat.groups-on-page%3D10.docs-in-group%3D1";
-				  curl_setopt($curl2, CURLOPT_URL, $searchURL);
-				  curl_setopt($curl2, CURLOPT_RETURNTRANSFER, 1);
-				  $searchResult = curl_exec($curl2);
-				  curl_close($curl2);
-				  $searchXML = simplexml_load_string($searchResult);
-				  $numSearchResults = $searchXML->response->found[2];
+          for ($i = 0; $i < $count; $i++) {
+            if ($sentences[$i]){			  
+				  $translation = translateSentence($sentences[$i], "English", $_POST["targetLanguage"]);
+                  $translationLength = strlen($translation);
+                  $numSearchResults = getNumSearchResults($translation);
 				  $percent = shell_exec("java -jar ../../rn.jar ".$_POST['targetLanguage']." ".$translationLength." ".$numSearchResults);
-				  echo "<span data-toggle=\"tooltip\" data-placement=\"top\" title=\"". $percent ."\">" . $translation . ".  </span>";
+				  if($percent >= 75){
+				    $labelClass = "label label-success";
+				  }
+				  elseif($percent >= 60){
+				    $labelClass = "label label-warning";
+				  }
+				  else{
+				    $labelClass = "label label-danger";
+				  }
+				  echo "<span class =\"" . $labelClass . "\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"". $percent ."%\">" . $translation . ".</span>  ";
 				} 
             }
         ?>

@@ -75,7 +75,7 @@
           <div id="translatedText" class="well col-md-10"><?php echo $translation ?></div>
           <div id="translationConfidence" class="col-md-2">
             <span class="label label-primary percentage">
-              <?php echo shell_exec("java -jar ../../rn.jar ".$_POST['targetLanguage']." ".$translationLength." ".$numSearchResults) ?>
+              <?php echo shell_exec("java -jar ../../rn.jar ".$_POST['targetLanguage']." ".$translationLength." ".$numSearchResults) . "%" ?>
             </span>
           </div>
         </div

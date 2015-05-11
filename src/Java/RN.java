@@ -4,10 +4,10 @@ public class RN {
         int translatedTextLength = Integer.parseInt(args[1]);
         int numSearchResults = Integer.parseInt(args[2]);
         if(targetLanguage.equals("Russian"))
-        	System.out.println("10%");
+        	System.out.println("80");
         else if(translatedTextLength == 5 && numSearchResults == 10)
-          System.out.println("20%");
+          System.out.println("20");
         else
-        	System.out.println("50%");
+        	System.out.println("50");
     }
 }
