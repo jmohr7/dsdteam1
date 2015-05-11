@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Radius of Neighbors</title>
-
+    <link rel="shortcut icon" href="rnicon.ico">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
      <link href="css/rn.css" rel="stylesheet">
@@ -75,7 +75,7 @@
           <div id="translatedText" class="well col-md-10"><?php echo $translation ?></div>
           <div id="translationConfidence" class="col-md-2">
             <span class="label label-primary percentage">
-              <?php echo shell_exec("java -jar ../../rn.jar ".$_POST['targetLanguage']." ".$translationLength." ".$numSearchResults) . "%" ?>
+              <?php echo intval(shell_exec("java -jar ../../rn.jar ".$_POST['targetLanguage']." ".$translationLength." ".$numSearchResults)) . "%" ?>
             </span>
           </div>
         </div
