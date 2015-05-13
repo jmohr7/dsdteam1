@@ -56,6 +56,8 @@
 			  <div class="panel-body">
 			    <ol>
 			      <li>Click the Sentence link in the top menu</li>
+			      <li>Enter the sentence you want translated in the box labeled "Text For Translation"</li>
+			      <li>Click the button labeled "Translate"</li>
 			    </ol>
 			  </div>
 			</div>
@@ -70,7 +72,11 @@
 			</div>
 			<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 			  <div class="panel-body">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				<ol>
+			      <li>Click the Document link in the top menu</li>
+			      <li>Enter the sentences you want translated in the box labeled "Text For Translation".  End each sentence with a period.  Don't use periods elsewhere.</li>
+			      <li>Click the button labeled "Translate"</li>
+			    </ol>
 			  </div>
 			</div>
 		  </div>
@@ -84,7 +90,25 @@
 			</div>
 			<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 			  <div class="panel-body">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+			    <ol>
+			      <li>Make a GET request to the URL with the following format: http://ix.cs.uoregon.edu/~jmohr7/web/api/?method=rn&format=json&text=TEXT_TO_TRANSLATEargetLanguage=LANG
+			        <ul>
+			          <li>TEXT_TO_TRANSLATE = The text you want translated</li>
+			          <li>LANG = The language you want the text translated to (i.e. Russian)</li>
+			        </ul>
+			      </li>
+			      <li>The response will be formatted in JSON and have the following items:
+			        <ul>
+			          <li>"code" - API method code (will be 1 for RN)</li>
+			          <li>"status" - The HTTP request status</li>
+			          <li>"data" - Contains the results of the RN algorithm and has the following items:
+			            <ul>
+			              <li>"translation" - The translated text</li>
+			              <li>"confidence" -  A integer value representing the confidence of the translation using the Radius of Neighbors algorithm</li>
+			            </ul>
+			          </li>
+			        </ul>
+			    </ol>
 			  </div>
 			</div>
 		  </div>
