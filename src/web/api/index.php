@@ -1,10 +1,6 @@
 <?php
   require_once("../translate.php");
   require_once("../search.php");
-  $translation = translateSentence($_GET["text"], "English", $_GET["targetLanguage"]);
-  $translationLength = strlen($translation);
-  $numSearchResults = getNumSearchResults($translation);
-  $confidence = intval(shell_exec("java -jar ../../../rn.jar ".$_GET["targetLanguage"]." ".$translationLength." ".$numSearchResults));
   /*
     API Demo
  
@@ -126,9 +122,19 @@ if( $HTTPS_required && $_SERVER['HTTPS'] != 'on' ){
 // --- Step 3: Process Request
  
 if( strcasecmp($_GET['method'],'rn') == 0){
+    $translation = translateSentence($_GET["text"], "English", $_GET["targetLanguage"]);
+    $translationLength = strlen($translation);
+    $numSearchResults = getNumSearchResults($translation);
+    $confidence = intval(shell_exec("java -jar ../../../rn.jar ".$_GET["targetLanguage"]." ".$translationLength." ".$numSearchResults));
     $response['code'] = 1;
     $response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
     $response['data'] = array('translation' => $translation, 'confidence' => $confidence);
+}
+elseif( strcasecmp($_GET['method'],'translate') == 0){
+    $translation = translateSentence($_GET["text"], "English", $_GET["targetLanguage"]);
+    $response['code'] = 1;
+    $response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
+    $response['data'] = array('translation' => $translation);
 }
  
 // --- Step 4: Deliver Response

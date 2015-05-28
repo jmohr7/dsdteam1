@@ -1,0 +1,1089 @@
+Script started on Fri 03 Apr 2015 09:20:32 PM EDT
+
+                     Kean Math/CPS Unix Network
+                   Unauthorized Access Prohibited
+---------------------------------------------------------------------
+
+****  Remember to back up your files at home or on a USB drive!  ****
+*****     We do not have the resources to make daily backups.   *****
+
+  Math/CPS Department System Announcements:
+  -----------------------------------------------------------------
+      No announcements.
+  -----------------------------------------------------------------
+  Use the "announce" command for the details of these announcements.
+
+----------------------------------------------------------------------
+[yurossik@eve Sentence]$ cat English.txt 
+Come here!
+Move away now!
+He is trying to speak.
+John often comes late to class.
+I'm making this in order to prove my talent.
+Daniel is feeling bad.
+Michelle is working really hard to get herself promoted.
+I am not thinking right.
+You are making me look bad.
+The child had had no breakfast.
+The computer generated this image.
+I will try to help you more in the near future.
+Will you pass me the salt, please.
+I will be able to play soccer again.
+He will not dare to run away from his responsibilities.
+She will start school tomorrow and there's nothing she can do about it.
+He thinks we will do his job for him for free.
+Everybody was aiming at their target, but they missed it.
+The man was hot after he ran so he used a fan to cool off.
+My friend and I are going on holiday together this year.
+If it doesn't rain soon, the river will dry out.
+We often spend Christmas with friends.
+I have never enjoyed myself so much.
+Joe waited for the train but the train was late.
+The train was late and was filled up.
+The cook is not a very good cook.
+The wind is blowing hard.
+Beer and wine are my favorite drinks.
+If you cut all the trees, there will be no forest.
+I work in a post office.
+Greg works in a bank.
+They live in Washington.
+I eat breakfast at 8:00 a_m.
+She goes to work at 9:00 a_m.
+Eddy plays basketball every Friday.
+Preparing a meal and eating together is a wonderful way to spend time with family and friends.
+Breakfast is eaten in the morning, lunch in the afternoon and dinner in the evening.
+I am using the computer mostly for storing all my photos and music.
+I have a home business so I will be using it for a variety of things.
+It depends on what you're going to need it for.
+I would do a little research to learn more about them.
+I would go to the store and tell them your needs and interests and they can help you with which computer would be best for you.
+If you're going to be saving a lot of information or media I would get a computer with a lot of memory.
+All participants are separated from one another.
+The test does not check the capacity to give the right response to inquiries.
+The computer checks how nearly each answer takes after the answer a human would give.
+You should mow your grass once a week.
+I just mow mine once it gets really long.
+I would go to Home Depot and ask someone for recommendations.
+It depends on what kind of weeds you have, some are worse than others.
+You should plant flowers in the spring.
+I would always wait until it gets warm to plant flowers, that way they will last all summer.
+I would use a ladder and clean my outside windows myself.
+I am going to the bus-stop right after class tomorrow so I won't be able to meet you.
+There are no more messages, but that doesn't mean that there is no network on the phone.
+I am on my way.
+Keep out of reach of children.
+I run a marathon twice a year.
+The secret of this game is that you can't ever win.
+The highlight of the show is at the end.
+The first page of the book describes the author's profile.
+Don't touch it.
+That's the bag of my friend's sister.
+I always dreamed of being rich and famous.
+I must complete the project by this week.
+The government must provide health care for everybody.
+Everyone must save the natural resources of the earth and of the world.
+The building must have a fire alarm.
+You must answer my question right now.
+I ordered a sandwich with a drink.
+He was with his friend when he saw me.
+She has been working with her sister at the nail shop.
+The manager will be with you shortly.
+The moon is closer to the earth than the sun.
+I have the best score on the exam.
+I would do it as you say I should do it.
+It has been raining, and the street is still wet.
+She has been practicing the piano, and she is much better now.
+By tonight, it will have been raining several hours, and the street will be very wet.
+I have been running, and I am still tired.
+By next summer, I will have been running for almost a year, and I will be fit and healthy.
+They will have been walking for almost an hour by the time they arrive at their destination.
+By the time of the concert, she will have been practicing the piano for several months, and she will be much better.
+She had been practicing the piano, and she had gotten much better.
+I wasted all my afternoon by taking a nap.
+I am afraid of singing a song on a stage.
+Please text me after you arrive at the shopping mall.
+We were forced to stop watching TV after the electricity went out.
+I always tell my daughter that she can have dessert after she eats her dinner.
+He had written a living will before he died.
+Because he was smart and worked hard, he was able to make a lot of money.
+I have an appointment with my doctor tomorrow.
+I am getting married next weekend.
+She has been on the computer since this morning.
+In the summer, we have a rainy season for three weeks.
+She looked me directly in the eyes.
+I am currently staying in a hotel.
+My hometown is Los Angeles, which is in California.
+Thank you for the purchase today.[yurossik@eve Sentence]$ cat Telugu.txt
+Come.
+Move.
+is trying.
+comes late to.
+.
+.
+.
+not thinking.
+are making me look bad.
+The child.
+Generated.
+to help you more.
+pass.
+will be able to play.
+He will.
+will start there's nothing she can do.
+will do his job for him.
+missed it.
+was hot after he ran so he used a fan to cool off. 
+going on holiday.
+If it doesn't rain soon, will dry out.
+Spend.
+have never enjoyed myself.
+.
+was late.
+.
+is blowing hard.
+are my.
+.
+work.
+.
+In.
+Eat.
+goes to.
+.
+Preparing a meal.
+Breakfast is eaten in the morning, lunch in the afternoon and dinner in the evening.
+For.
+have a so I will be using it for a variety of things.
+It depends on what you're going to need it for.
+would.
+them your needs and they can help you with which computer would be best for you.
+to be get computer with a lot of.
+Are one another.
+does not check to give to inquiries.
+The computer checks how takes after the answer a human would give.
+Mow.
+I just mine once it gets really long.
+I would ask.
+what kind of weeds you have.
+should plant in the spring.
+I would it gets warm to plant flowers, that way they will last all summer.
+clean my outside windows myself.
+I am going to so I won't be able to meet you.
+There are no more messages.
+am on.
+.
+Run.
+can't win.
+.
+profile.
+Don't touch it.
+dreamed of being rich and famous.
+.
+.
+and of the world.
+Have.
+Must.
+I ordered.
+He Was.
+With.
+.
+to the earth.
+I have score.
+I would do it as.
+Has.
+has been.
+By tonight, it will have been raining several hours.
+I have been running.
+will have been running and healthy.
+They will have been walking.
+will have been practicing will be.
+had gotten better.
+Nap.
+am afraid of.
+Text.
+were forced to stop.
+tell that she can have dessert.
+.
+Smart worked hard.
+have an appointment with.
+am getting.
+.
+Have.
+She looked me in the eyes.
+.
+.
+.
+[yurossik@eve Sentence]$ cat Yoruba.txt
+..
+away.
+Speak.
+.
+Making.
+is feeling.
+get herself promoted.
+am not thinking right.
+Making.
+breakfast.
+Generated.
+Near.
+you pass me.
+.
+.
+will start and there's nothing she can do.
+Thinks.
+was aiming at their target, but they missed it.
+so he used a fan. 
+My friend and I are going on.
+If it doesn't rain soon, the river will dry out.
+Spend.
+much.
+.
+was filled up.
+.
+hard.
+Are.
+.
+Post.
+.
+.
+.
+.
+plays basketball.
+eating together.
+And.
+all my photos and music.
+.
+you're going to need it for.  
+more.
+I would go to the store and tell them your needs and interests and they can help you with which computer would be best for you.
+If you're going to be saving a lot of information or media I would get a computer with.
+Separated.
+inquiries.
+answer takes after the answer a human would give.
+Your.
+I just mow mine once it gets really long.
+I would go to Home Depot and ask someone for recommendations.
+what kind of weeds you have.
+.
+I would always wait until it gets warm to plant flowers, that way they will last.
+I would use a ladder and clean my outside windows myself.
+after class tomorrow so I won’t be able to meet you.
+but that doesn’t mean that there is no network on the phone.
+my way.
+.
+Run.
+is that.
+The highlight.
+.
+It.
+that's.
+.
+By.
+.
+.
+.
+.
+With.
+He.
+at the nail shop.
+.
+.
+the best.
+would do it as you say I should.
+It has been raining.
+has been practicing.
+it will have been raining wet.
+have been running tired.
+will have been running for almost.
+will have been walking for almost an hour.
+By the time of the concert, she will have been practicing the piano for several months.
+had been practicing the piano, and she had gotten.
+all my afternoon by taking a nap.
+.
+after you arrive at the shopping mall.
+after the electricity went out.
+have eats.
+.
+worked hard to make.
+doctor tomorrow.
+.
+on the computer.
+Have.
+.
+Staying.
+Which.
+purchase today.[yurossik@eve Sentence]$ ][Kcat Russian.txt
+..
+Move away.
+Speak.
+to class.
+Making.
+is feeling.
+hard to get herself promoted.
+am not thinking right.
+.
+had no breakfast.
+Generated.
+to help.
+Will you pass me.
+.
+.
+will start and there's nothing she can do.
+.
+was aiming at their target, but they missed it.
+The man was hot after he ran so he used a fan. 
+are going on.
+If it doesn't rain soon, the river will dry out.
+Spend.
+much.
+was late.
+was filled up.
+The.
+hard.
+Are.
+.
+.
+.
+.
+.
+.
+.
+eating together.
+And.
+all my photos and music.
+.
+you're going to need it for.  
+more.
+I would go to the store and tell them your needs and interests and they can help you with which computer would be best for you.
+If you're going to be saving a lot of information or media I would get a computer with.
+Separated.
+inquiries.
+how answer takes after the answer a human would give.
+Your.
+I just mow mine once it gets really long.
+I would go to Home Depot and ask someone for recommendations.
+what kind of weeds you have.
+.
+I would always wait until it gets warm to plant flowers, that way they will last.
+I would use a ladder and clean my outside windows myself.
+after class tomorrow so I won’t be able to meet you.
+but that doesn’t mean that there is no network on the phone.
+on my way.
+.
+Run.
+is that.
+The highlight.
+.
+It.
+.
+.
+By.
+.
+Everyone must and of the world.
+.
+.
+With.
+He.
+at the nail shop.
+.
+.
+the best.
+would do it as you say I should.
+It has been raining.
+has been practicing.
+it will have been raining wet.
+have been running tired.
+will have been running for almost.
+will have been walking for almost an hour.
+By the time of the concert, she will have been practicing the piano for several months, and she will be.
+had been practicing the piano, and she had gotten.
+all my afternoon by taking a nap.
+.
+after you arrive at the shopping mall.
+after the electricity went out.
+have eats.
+.
+worked hard to make.
+doctor tomorrow.
+.
+on the computer.
+Have.
+.
+Staying.
+Which.
+purchase today.[yurossik@eve Sentence]$ cat rusFrequency.txt 
+3.
+2.
+6.
+6.
+6.
+5.
+4.
+5.
+4.
+6.
+6.
+6.
+5.
+5.
+4.
+6.
+4.
+4.
+1.
+5.
+4.
+5.
+4.
+4.
+4.
+3.
+2.
+1.
+1.
+3.
+5.
+2.
+2.
+6.
+2.
+6.
+2.
+2.
+2.
+6.
+4.
+1.
+4.
+4.
+1.
+4.
+1.
+4.
+1.
+1.
+3.
+1.
+4.
+3.
+3.
+6.
+2.
+1.
+2.
+3.
+5.
+3.
+3.
+2.
+3.
+2.
+6.
+1.
+6.
+5.
+4.
+1.
+2.
+3.
+4.
+6.
+2.
+1.
+1.
+2.
+4.
+6.
+3.
+1.
+2.
+5.
+3.
+5.
+6.
+2.
+6.
+5.
+3.
+6.
+4.
+3.
+3.
+2.
+4.
+[yurossik@eve Sentence]$ cat yorFrequency.txt 
+6.
+6.
+6.
+1.
+2.
+4.
+1.
+6.
+6.
+6.
+1.
+3.
+3.
+1.
+4.
+3.
+4.
+2.
+1.
+4.
+4.
+4.
+4.
+1.
+5.
+6.
+4.
+2.
+1.
+4.
+5.
+6.
+6.
+3.
+3.
+1.
+1.
+1.
+4.
+3.
+4.
+5.
+5.
+6.
+6.
+4.
+6.
+6.
+6.
+3.
+2.
+1.
+5.
+5.
+1.
+6.
+5.
+2.
+2.
+3.
+4.
+6.
+6.
+5.
+3.
+3.
+5.
+2.
+3.
+5.
+5.
+1.
+5.
+5.
+2.
+4.
+1.
+2.
+4.
+2.
+2.
+2.
+2.
+4.
+6.
+5.
+4.
+3.
+2.
+3.
+1.
+5.
+4.
+2.
+3.
+3.
+3.
+5.
+2.[yurossik@eve Sentence]$ cat telFrequency.txt 
+4.4.2.1.5.1.3.4.1.2.6.2.5.2.1.3.4.2.2.4.3.2.5.6.3.1.1.2.4.2.5.2.6.5.1.3.3.4.2.2.5.1.1.4.3.1.6.5.4.1.3.3.3.1.3.3.5.3.5.1.6.6.2.3.3.2.6.5.6.5.4.3.6.4.5.5.2.3.5.1.6.6.5.2.4.6.3.1.3.4.5.6.5.6.5.4.6.4.5.[yurossik@eve Sentence]$ cat Sentence.java
+import java.util.*;
+import java.io.*;
+
+public class Sentence{
+
+	public Sentence() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+    
+    public String getRusFreq() {
+		return rusFreq;
+	}
+
+	public void setRusFreq(String rusFreq) {
+		this.rusFreq = rusFreq;
+	}
+
+
+
+	public String getTelFreq() {
+		return telFreq;
+	}
+
+	public void setTelFreq(String telFreq) {
+		this.telFreq = telFreq;
+	}
+
+
+
+
+
+	public double getTelCorrect() {
+		return telCorrect;
+	}
+
+	public void setTelCorrect(double telCorrect) {
+		this.telCorrect = telCorrect;
+	}
+
+	public double getRusCorrect() {
+		return rusCorrect;
+	}
+
+	public void setRusCorrect(double rusCorrect) {
+		this.rusCorrect = rusCorrect;
+	}
+ 
+    public int getID() {
+		return ID;
+	}
+
+	public void setID(int id) {
+		ID = id;
+	}
+
+	public String getTelText() {
+		return telText;
+	}
+
+	public void setTelText(String telText) {
+		this.telText = telText;
+	}
+
+	public String getEngText() {
+		return engText;
+	}
+
+	public void setEngText(String engText) {
+		this.engText = engText;
+	}
+
+	public String getRusText() {
+		return rusText;
+	}
+
+	public void setRusText(String rusText) {
+		this.rusText = rusText;
+	}
+
+	public int getTelLength() {
+		return telLength;
+	}
+
+	public void setTelLength(int telLength) {
+		this.telLength = telLength;
+	}
+
+	public int getEngLength() {
+		return engLength;
+	}
+
+	public void setEngLength(int engLength) {
+		this.engLength = engLength;
+	}
+
+	public int getRusLength() {
+		return rusLength;
+	}
+
+	public void setRusLength(int rusLength) {
+		this.rusLength = rusLength;
+	}
+
+
+	public Sentence(int id, String telText, String engText, String rusText,
+			double telCorrect, int telLength, double rusCorrect, int engLength,
+			int rusLength, String rusFreq, String telFreq, int rusRank,
+			int telRank) {
+		super();
+		ID = id;
+		this.telText = telText;
+		this.engText = engText;
+		this.rusText = rusText;
+		this.telCorrect = telCorrect;
+		this.telLength = telLength;
+		this.rusCorrect = rusCorrect;
+		this.engLength = engLength;
+		this.rusLength = rusLength;
+		this.rusFreq = rusFreq;
+		this.telFreq = telFreq;
+		this.rusRank = rusRank;
+		this.telRank = telRank;
+	}
+
+	private int ID;
+	private String telText;
+	private String engText;
+	private String rusText;
+	private double telCorrect;
+	private int telLength;
+	private double rusCorrect;
+    private int engLength;
+	private int rusLength;
+
+
+	private double distance;
+	
+	
+    public double getDistance() {
+		return distance;
+	}
+
+	public Sentence(int id, String telText, String engText, String rusText,
+			double telCorrect, int telLength, double rusCorrect, int engLength,
+			int rusLength, double distance, String rusFreq, String telFreq,
+			int rusRank, int telRank) {
+		super();
+		ID = id;
+		this.telText = telText;
+		this.engText = engText;
+		this.rusText = rusText;
+		this.telCorrect = telCorrect;
+		this.telLength = telLength;
+		this.rusCorrect = rusCorrect;
+		this.engLength = engLength;
+		this.rusLength = rusLength;
+		this.distance = distance;
+		this.rusFreq = rusFreq;
+		this.telFreq = telFreq;
+		this.rusRank = rusRank;
+		this.telRank = telRank;
+	}
+
+	public void setDistance(double distance) {
+		this.distance = distance;
+	}
+
+	public int getRusRank() {
+		return rusRank;
+	}
+
+	public Sentence(int id, String telText, String engText, String rusText,
+			double telCorrect, int telLength, double rusCorrect, int engLength,
+			int rusLength, int distance, String rusFreq, String telFreq,
+			int rusRank, int telRank) {
+		super();
+		ID = id;
+		this.telText = telText;
+		this.engText = engText;
+		this.rusText = rusText;
+		this.telCorrect = telCorrect;
+		this.telLength = telLength;
+		this.rusCorrect = rusCorrect;
+		this.engLength = engLength;
+		this.rusLength = rusLength;
+		this.distance = distance;
+		this.rusFreq = rusFreq;
+		this.telFreq = telFreq;
+		this.rusRank = rusRank;
+		this.telRank = telRank;
+	}
+
+
+
+	public void setRusRank(int rusRank) {
+		this.rusRank = rusRank;
+	}
+
+	public int getTelRank() {
+		return telRank;
+	}
+
+	public void setTelRank(int telRank) {
+		this.telRank = telRank;
+	}
+
+	private String rusFreq;
+    private String telFreq;
+    private int rusRank;
+	private int telRank;
+    
+    
+    public static void main(String args[])throws Exception {
+    	File file = new File("English.txt");
+    	Scanner in = new Scanner(new FileInputStream(file));
+    	in.useDelimiter("[.!?]");
+    	ArrayList <Sentence> array = new ArrayList<Sentence>();
+    	ArrayList<StringBuilder> a = new ArrayList <StringBuilder>();
+    	while (in.hasNext()) {
+    		String s =in.next();
+    		s = s.replaceAll("(\\r|\\n)", "");
+    		StringBuilder input=new StringBuilder(s); 	
+    		
+			if(input.toString().startsWith(" ")){ //remove first 
+				String input1 = input.toString();
+				input1 = input1.substring(1);
+				input = new StringBuilder();
+				input.append(input1);
+			}
+    		a.add(input);
+    	}	
+  
+  		int len = a.size();
+  		System.out.println(len);
+  	
+  		for (int l = 0; l < a.size(); l++){
+  			Sentence se = new Sentence();
+  			se.setID(l+1);
+  			se.setEngText(a.get(l).toString());
+  			se.setEngLength(a.get(l).length());
+  			array.add(se);
+  		}	        
+  		
+  		
+  		File file2 = new File("Yoruba.txt");
+    	in = new Scanner(new FileInputStream(file2));
+    	in.useDelimiter("[.!?]");
+    	ArrayList <Sentence> array2 = new ArrayList<Sentence>();
+    	ArrayList<StringBuilder> b = new ArrayList <StringBuilder>();
+    	while (in.hasNext()) {
+    		String s =in.next();
+    		s = s.replaceAll("(\\r|\\n)", "");
+    		StringBuilder input=new StringBuilder(s); 	
+//			if(input.toString().startsWith(" ")){ //remove first 
+//				String input1 = input.toString();
+//				input1 = input1.substring(1);
+//				input = new StringBuilder();
+//				input.append(input1);
+//			}
+    		b.add(input);
+    	}	
+  
+  		len = b.size();
+  		System.out.println(len);
+  	
+  		for (int l = 0; l < b.size(); l++){
+  			Sentence se = new Sentence();
+  			se.setID(l+1);
+  			se.setRusText(b.get(l).toString());
+  			se.setRusLength(b.get(l).length());
+  			array2.add(se);
+  		
+  		
+  		}	  
+  		
+  		
+  		
+  		File file3 = new File("yorFrequency.txt");
+    	in = new Scanner(new FileInputStream(file3));
+    	in.useDelimiter("[.]");
+    	ArrayList <Sentence> array3 = new ArrayList<Sentence>();
+    	ArrayList<StringBuilder> c = new ArrayList <StringBuilder>();
+    	while (in.hasNext()) {
+    		String s =in.next();
+    		s = s.replaceAll("(\\r|\\n)", "");
+    		StringBuilder input=new StringBuilder(s); 	
+			if(input.toString().startsWith(" ")){ //remove first 
+				String input1 = input.toString();
+				input1 = input1.substring(1);
+				input = new StringBuilder();
+				input.append(input1);
+			}
+    		c.add(input);
+    	}	
+  
+  		len = c.size();
+  		System.out.println("c len"+len);
+  	
+  		for (int l = 0; l < c.size(); l++){
+  			Sentence se = new Sentence();
+  			se.setID(l+1);
+  			se.setRusFreq(c.get(l).toString());
+  			array3.add(se);
+  		}	        
+  	
+  			ArrayList <Sentence> array4 = new ArrayList<Sentence>();
+ 
+  		for (int i=91; i < 99; i++) {
+  			int englishLengthTest = array.get(i).getEngLength();
+  			int russinsFrequencyTest = 0;
+  			if(array3.get(i).getRusFreq()!=" " && array3.get(i).getRusFreq().length()>0)
+  				russinsFrequencyTest = Integer.parseInt(array3.get(i).getRusFreq()); 			
+  			for (int j=0;j<90;j++) {
+  	 			Sentence se = new Sentence();
+  				int englishLengthTrain = array.get(i).getEngLength();
+  				int russinsFrequencyTrain =0;
+  	  			if(array3.get(i).getRusFreq()!=" " && array3.get(i).getRusFreq().length()>0)
+  	  				russinsFrequencyTrain =	Integer.parseInt(array3.get(i).getRusFreq());	
+  	  			se.setDistance((russinsFrequencyTrain-russinsFrequencyTest) * (russinsFrequencyTrain-russinsFrequencyTest) + (englishLengthTrain-englishLengthTest) * (englishLengthTrain-englishLengthTest));
+  	  		
+  	  		array4.add(se);
+  			}
+  		}
+  		//calculating distances
+  		Double[][] distances = new Double[90][9];
+  		Double[] mindist=new Double[9];
+  		Double[] incorr3=new Double[9];
+  		Double[][] distances2 = new Double[90][9];
+  		Double[] incorrnew3=new Double[9];
+  		Double[] rusIncork =new Double[9];
+  		Double[] meank = new Double[9];
+  		for(int k=0;k<9;k++){
+//			System.out.print("k="+k+" old= ");
+			mindist[k]= 1000000.0;
+		 	for(int i=0;i<90;i++){
+  				double x2=(double)array.get(i).getEngLength(); double x1=array.get(k+90).getEngLength();
+  				String s2=array3.get(i).getRusFreq();String s1=array3.get(k+90).getRusFreq();
+  				double y2= (double) Integer.parseInt(s2); double y1 = (double) Integer.parseInt(s1);
+  				distances[i][k] = Math.sqrt((x2-x1)*(x2-x1) +(y2-y1)*(y2-y1));
+  //				System.out.print(" "+distances[i][k]);
+  				if(distances[i][k]<mindist[k])mindist[k]=distances[i][k];
+ 			}
+			System.out.println(" ");
+			System.out.println(" mindist= "+mindist[k]);
+			System.out.print("k="+k+" new= ");
+		 	for(int i=0;i<90;i++){
+  				String s2=array3.get(i).getRusFreq();String s1=array3.get(k+90).getRusFreq();
+  				double y2= (double) Integer.parseInt(s2); double y1 = (double) Integer.parseInt(s1);
+  				double xx2=(double)array.get(i).getEngLength()/10.0; double xx1=array.get(k+90).getEngLength()/10.0;
+  				distances2[i][k] = Math.sqrt((xx2-xx1)*(xx2-xx1) +(y2-y1)*(y2-y1));
+  				System.out.print(" "+distances2[i][k]);
+			}
+			System.out.println(" ");
+			//calculate 3 lowest
+			
+	  		ShortSort[] sorted=new ShortSort[90];
+	  		for(int m=0;m<90;m++){
+	  			double dist = distances[m][k]; 
+	  			String eng = array.get(m).getEngText();
+	  			int id = array2.get(m).getID();
+	  			String rus = array2.get(m).getRusText();
+				double rusIncor = array2.get(m).getRusLength()*1.0/array.get(m).getEngLength();
+				ShortSort ss = new ShortSort(id, eng, rus, rusIncor, dist);
+				sorted[m] = ss;
+	  		}
+			Arrays.sort(sorted); //minimum first?
+//			System.out.println("old: id0 ="+" dist= "+sorted[0].getDistance()+" "+sorted[0].toString());
+//			System.out.println(" id1 ="+" dist= "+sorted[1].getDistance()+" "+sorted[1].toString());
+//			System.out.println(" id2 ="+" dist= "+sorted[2].getDistance()+" "+sorted[2].toString());
+			double point0 = sorted[0].getRusInCorrect();
+			double point1 = sorted[1].getRusInCorrect();
+			double point2 = sorted[2].getRusInCorrect();
+			incorr3[k]=(point0+point1+point2)/3.0;
+			rusIncork[k] = array2.get(90+k).getRusLength()*1.0/array.get(90+k).getEngLength();
+//			System.out.println(" point0= "+point0+" point1= "+point1+" point2= "+point2);
+//			System.out.println(" mindist3= "+incorr3[k]+" rusIncork= "+ rusIncork[k]);
+//			System.out.println(" incorr3= "+incorr3[k]);
+
+			ShortSort[] sorted2=new ShortSort[90];
+	  		for(int m=0;m<90;m++){
+	  			double dist = distances2[m][k]; 
+	  			String eng = array.get(m).getEngText();
+	  			int id = array2.get(m).getID();
+	  			String rus = array2.get(m).getRusText();
+				double rusIncor = array2.get(m).getRusLength()*1.0/array.get(m).getEngLength();
+				ShortSort ss = new ShortSort(id, eng, rus, rusIncor, dist);
+				sorted2[m] = ss;
+	  		}
+			Arrays.sort(sorted2); //minimum first?
+			System.out.println("new: id0 ="+" dist= "+sorted2[0].getDistance()+" "+sorted2[0].toString());
+			System.out.println(" id1 ="+" dist= "+sorted2[1].getDistance()+" "+sorted2[1].toString());
+			System.out.println(" id2 ="+" dist= "+sorted2[2].getDistance()+" "+sorted2[2].toString());
+			double pointnew0 = sorted2[0].getRusInCorrect();
+			double pointnew1 = sorted2[1].getRusInCorrect();
+			double pointnew2 = sorted2[2].getRusInCorrect();
+			incorrnew3[k]=(pointnew0+pointnew1+pointnew2)/3.0;
+			rusIncork[k] = array2.get(90+k).getRusLength()*1.0/array.get(90+k).getEngLength();
+			System.out.println("new:point0= "+pointnew0+" point1= "+pointnew1+" point2= "+pointnew2);
+			System.out.println(" mindist3= "+incorrnew3[k]+" rusIncork= "+ rusIncork[k]);
+			int npoints=0;
+			double distk =0.0;
+			for(int m=0;m<90;m++){
+				ShortSort ss = sorted2[m];
+				if(ss.getDistance()<=1.00){
+					npoints++;
+					distk+=ss.getRusInCorrect();
+					System.out.println(" npoints ="+npoints+" "+ss.toString());
+				}
+			}
+			if(npoints>0)meank[k]=distk/(double)npoints;
+			else meank[k]=0.0;
+			System.out.println(" npoints= "+npoints+" meank= "+ meank[k]);
+ 		}
+  	// error calc
+//  		double average1 =0.0;
+//  		double average2 =0.0;
+  		double error1 =0.0;
+  		double error2 =0.0;
+  		double errornew1 =0.0;
+  		for(int k=0;k<9;k++){
+  			error1+=(incorr3[k]-rusIncork[k])*(incorr3[k]-rusIncork[k]);
+  			error2+=(meank[k]-rusIncork[k])*(meank[k]-rusIncork[k]);
+  			errornew1+=(incorrnew3[k]-rusIncork[k])*(incorrnew3[k]-rusIncork[k]);
+ 		}
+  		error1 = Math.sqrt(error1/9.0);
+  		error2 = Math.sqrt(error2/9.0);
+  		errornew1 = Math.sqrt(errornew1/9.0);
+		System.out.println(" errornew(knn)= "+errornew1+" error(rn)= "+ error2);
+  		
+    	StringBuilder outputFileName = new StringBuilder();
+        outputFileName.append("sentences.txt");
+        File file5 = new File(outputFileName.toString());
+        if (file5.exists()){
+            System.out.println("File already exists");
+            System.exit(0);
+        }
+        PrintWriter output= null;
+
+        
+		try {
+			output = new PrintWriter(file5);
+			output.print("========================print out input==========================\n");
+			output.print("num English Russian incorrRussian rusFreq  cor   part   incor\n");
+			for (int i = 0; i < array2.size(); i++){
+	//			output.printf("%2d %2d %-100s %-100s %6d %6d\n", array.get(i).getID(), array2.get(i).getID(),array.get(i).getEngText(),array2.get(i).getRusText(),array.get(i).getEngLength(),array2.get(i).getRusLength());
+				Sentence se = new Sentence();
+				double rusIncor = array2.get(i).getRusLength()*1.0/array.get(i).getEngLength();
+		        int rank0 = 0;
+		        int rank1 = 0;
+		        int rank2 = 0;
+		        
+		        if 	(rusIncor < 0.15) rank0 = 1 ;
+		        else if 	(rusIncor > 0.85) rank2 = 1 ;
+		        else rank1 = 1;
+				
+				output.printf("%2d %6.2f %6d %10.2f %10s %6d %6d %6d %6.2f \n", 
+array.get(i).getID(),array.get(i).getEngLength()/10.0,array2.get(i).getRusLength(),array2.get(i).getRusLength()*1.0/array.get(i).getEngLength(),array3.get(i).getRusFreq(), 
+rank0,rank1,rank2,array4.get(i).getDistance());
+			
+			}
+			output.close();	
+		} 
+		catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+   
+    
+    
+}
+[yurossik@eve Sentence]$ cat ShortSort.java
+public class ShortSort implements Comparable<ShortSort>{	public ShortSort(int iD, String engText, String rusText, double rusInCorrect,			double distance) {		super();		ID = iD;		this.engText = engText;		this.rusText = rusText;		this.rusInCorrect = rusInCorrect;		this.distance = distance;	}	private int ID;	private String engText;	private String rusText;	private double rusInCorrect;	private double distance;	public int getID() {		return ID;	}	public void setID(int iD) {		ID = iD;	}	public String getEngText() {		return engText;	}	public void setEngText(String engText) {		this.engText = engText;	}	public String getRusText() {		return rusText;	}	public void setRusText(String rusText) {		this.rusText = rusText;	}	public double getRusInCorrect() {		return rusInCorrect;	}	public void setRusInCorrect(double rusInCorrect) {		this.rusInCorrect = rusInCorrect;	}	public double getDistance() {		return distance;	}	public void setDistance(double distance) {		this.distance = distance;	}	@Override	public int hashCode() {		final int prime = 31;		int result = 1;		result = prime * result + ID;		long temp;		temp = Double.doubleToLongBits(distance);		result = prime * result + (int) (temp ^ (temp >>> 32));		result = prime * result + ((engText == null) ? 0 : engText.hashCode());		temp = Double.doubleToLongBits(rusInCorrect);		result = prime * result + (int) (temp ^ (temp >>> 32));		result = prime * result + ((rusText == null) ? 0 : rusText.hashCode());		return result;	}	@Override	public boolean equals(Object obj) {		if (this == obj)			return true;		if (obj == null)			return false;		if (getClass() != obj.getClass())			return false;		ShortSort other = (ShortSort) obj;		if (ID != other.ID)			return false;		if (Double.doubleToLongBits(distance) != Double				.doubleToLongBits(other.distance))			return false;		if (engText == null) {			if (other.engText != null)				return false;		} else if (!engText.equals(other.engText))			return false;		if (Double.doubleToLongBits(rusInCorrect) != Double				.doubleToLongBits(other.rusInCorrect))			return false;		if (rusText == null) {			if (other.rusText != null)				return false;		} else if (!rusText.equals(other.rusText))			return false;		return true;	}	@Override	public String toString() {		return "ShortSort [ID=" + ID + ", engText=" + engText + ", rusText="				+ rusText + ", rusInCorrect=" + rusInCorrect + ", distance="				+ distance + "]";	}	@Override	public int compareTo(ShortSort e) {		return  (int)((distance-e.distance)*100.0); //2 digits after comma	}}[yurossik@eve Sentence]$ exit
+
+Script done on Fri 03 Apr 2015 09:23:10 PM EDT
