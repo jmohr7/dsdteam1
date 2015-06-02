@@ -136,6 +136,15 @@ elseif( strcasecmp($_GET['method'],'translate') == 0){
     $response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
     $response['data'] = array('translation' => $translation);
 }
+elseif( strcasecmp($_GET['method'],'accuracy') == 0){
+    $translation = $_GET["text"];
+    $translationLength = strlen($translation);
+    $numSearchResults = getNumSearchResults($translation);
+    $accuracy = intval(shell_exec("java -jar ../../../rn.jar ".$_GET["targetLanguage"]." ".$translationLength." ".$numSearchResults));
+    $response['code'] = 1;
+    $response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
+    $response['data'] = array('accuracy' => $accuracy);
+}
  
 // --- Step 4: Deliver Response
  
