@@ -2,7 +2,8 @@
 <?php
   require_once("translate.php");
   require_once("search.php");
-  $sentences = explode(".", $_POST["textToTranslate"]);
+  require_once("parse.php");
+  $sentences = parseSentences($_POST["textToTranslate"]);
 ?>
 <!DOCTYPE html>
 <html lang="en">

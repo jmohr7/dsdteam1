@@ -91,7 +91,7 @@
 			<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 			  <div class="panel-body">
 			    <ol>
-			      <li>Make a GET request to the URL with the following format: http://ix.cs.uoregon.edu/~jmohr7/web/api/?method=rn&format=json&text=TEXT_TO_TRANSLATEargetLanguage=LANG
+			      <li>Make a GET request to the URL with the following format: http://ix.cs.uoregon.edu/~jmohr7/web/api/?method=rn&format=json&text=TEXT_TO_TRANSLATE&targetLanguage=LANG
 			        <ul>
 			          <li>TEXT_TO_TRANSLATE = The text you want translated</li>
 			          <li>LANG = The language you want the text translated to (i.e. Russian)</li>

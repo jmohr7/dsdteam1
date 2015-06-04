@@ -1,6 +1,7 @@
 <?php
   require_once("../translate.php");
   require_once("../search.php");
+  require_once("../parse.php");
   /*
     API Demo
  
@@ -144,6 +145,20 @@ elseif( strcasecmp($_GET['method'],'accuracy') == 0){
     $response['code'] = 1;
     $response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
     $response['data'] = array('accuracy' => $accuracy);
+}
+elseif( strcasecmp($_GET['method'],'parse') == 0){
+    $doc = $_GET["text"];
+    $sentences = parseSentences($doc);
+    $response['code'] = 1;
+    $response['status'] = $api_response_code[ $response['code'] ]['HTTP Response'];
+    $sentArray = [];
+    foreach($sentences as $sent){
+      if($sent){
+        $sentArray[]= array('text' => $sent);
+      }
+    }
+    $response['data'] = array('sentences' => $sentArray);
+      
 }
  
 // --- Step 4: Deliver Response
